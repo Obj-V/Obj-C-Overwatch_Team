@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25EDE4911E90392300C44094 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EDE4901E90392300C44094 /* main.m */; };
+		25EDE4941E90392300C44094 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EDE4931E90392300C44094 /* AppDelegate.m */; };
+		25EDE49C1E90392300C44094 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25EDE49B1E90392300C44094 /* Assets.xcassets */; };
+		25EDE49F1E90392300C44094 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25EDE49D1E90392300C44094 /* LaunchScreen.storyboard */; };
+		25EDE4A81E9039CC00C44094 /* CMBMeetTeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EDE4A71E9039CC00C44094 /* CMBMeetTeamViewController.m */; };
+		25EDE4AE1E903B8200C44094 /* CMBMeetTeamStretchedHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EDE4AD1E903B8200C44094 /* CMBMeetTeamStretchedHeaderView.m */; };
+		25EDE4B11E904DCC00C44094 /* CMBMeetTeamTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EDE4B01E904DCC00C44094 /* CMBMeetTeamTableViewCell.m */; };
+		25EDE4B41E906A0400C44094 /* CMBMeetTeamDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EDE4B31E906A0300C44094 /* CMBMeetTeamDetailViewController.m */; };
+		25EDE4B71E906AED00C44094 /* CMBMeetTeamDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EDE4B61E906AED00C44094 /* CMBMeetTeamDetailView.m */; };
+		25EDE4BA1E907E2100C44094 /* CMBPopupAnimatedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EDE4B91E907E2100C44094 /* CMBPopupAnimatedController.m */; };
+		25EDE4BD1E90921200C44094 /* CMBPopupPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EDE4BC1E90921200C44094 /* CMBPopupPresentationController.m */; };
+		25EDE4C11E90B69600C44094 /* CMBMeetTeamModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EDE4C01E90B69600C44094 /* CMBMeetTeamModel.m */; };
+		25EDE4C31E90B6A800C44094 /* team.json in Resources */ = {isa = PBXBuildFile; fileRef = 25EDE4C21E90B6A800C44094 /* team.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25EDE48C1E90392300C44094 /* CMB_Team.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMB_Team.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25EDE4901E90392300C44094 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25EDE4921E90392300C44094 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25EDE4931E90392300C44094 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25EDE49B1E90392300C44094 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25EDE49E1E90392300C44094 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25EDE4A01E90392300C44094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25EDE4A61E9039CC00C44094 /* CMBMeetTeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBMeetTeamViewController.h; sourceTree = "<group>"; };
+		25EDE4A71E9039CC00C44094 /* CMBMeetTeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBMeetTeamViewController.m; sourceTree = "<group>"; };
+		25EDE4AC1E903B8200C44094 /* CMBMeetTeamStretchedHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBMeetTeamStretchedHeaderView.h; sourceTree = "<group>"; };
+		25EDE4AD1E903B8200C44094 /* CMBMeetTeamStretchedHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBMeetTeamStretchedHeaderView.m; sourceTree = "<group>"; };
+		25EDE4AF1E904DCC00C44094 /* CMBMeetTeamTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBMeetTeamTableViewCell.h; sourceTree = "<group>"; };
+		25EDE4B01E904DCC00C44094 /* CMBMeetTeamTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBMeetTeamTableViewCell.m; sourceTree = "<group>"; };
+		25EDE4B21E906A0300C44094 /* CMBMeetTeamDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBMeetTeamDetailViewController.h; sourceTree = "<group>"; };
+		25EDE4B31E906A0300C44094 /* CMBMeetTeamDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBMeetTeamDetailViewController.m; sourceTree = "<group>"; };
+		25EDE4B51E906AED00C44094 /* CMBMeetTeamDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBMeetTeamDetailView.h; sourceTree = "<group>"; };
+		25EDE4B61E906AED00C44094 /* CMBMeetTeamDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBMeetTeamDetailView.m; sourceTree = "<group>"; };
+		25EDE4B81E907E2100C44094 /* CMBPopupAnimatedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBPopupAnimatedController.h; sourceTree = "<group>"; };
+		25EDE4B91E907E2100C44094 /* CMBPopupAnimatedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBPopupAnimatedController.m; sourceTree = "<group>"; };
+		25EDE4BB1E90921200C44094 /* CMBPopupPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBPopupPresentationController.h; sourceTree = "<group>"; };
+		25EDE4BC1E90921200C44094 /* CMBPopupPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBPopupPresentationController.m; sourceTree = "<group>"; };
+		25EDE4BF1E90B69600C44094 /* CMBMeetTeamModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBMeetTeamModel.h; sourceTree = "<group>"; };
+		25EDE4C01E90B69600C44094 /* CMBMeetTeamModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBMeetTeamModel.m; sourceTree = "<group>"; };
+		25EDE4C21E90B6A800C44094 /* team.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = team.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25EDE4891E90392300C44094 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25EDE4831E90392300C44094 = {
+			isa = PBXGroup;
+			children = (
+				25EDE48E1E90392300C44094 /* CMB_Team */,
+				25EDE48D1E90392300C44094 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25EDE48D1E90392300C44094 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25EDE48C1E90392300C44094 /* CMB_Team.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25EDE48E1E90392300C44094 /* CMB_Team */ = {
+			isa = PBXGroup;
+			children = (
+				25EDE4921E90392300C44094 /* AppDelegate.h */,
+				25EDE4931E90392300C44094 /* AppDelegate.m */,
+				25EDE4A91E903B2600C44094 /* ViewControllers */,
+				25EDE4AB1E903B4500C44094 /* Views */,
+				25EDE4BE1E90B67C00C44094 /* Model */,
+				25EDE49B1E90392300C44094 /* Assets.xcassets */,
+				25EDE49D1E90392300C44094 /* LaunchScreen.storyboard */,
+				25EDE4A01E90392300C44094 /* Info.plist */,
+				25EDE48F1E90392300C44094 /* Supporting Files */,
+			);
+			path = CMB_Team;
+			sourceTree = "<group>";
+		};
+		25EDE48F1E90392300C44094 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25EDE4901E90392300C44094 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25EDE4A91E903B2600C44094 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				25EDE4A61E9039CC00C44094 /* CMBMeetTeamViewController.h */,
+				25EDE4A71E9039CC00C44094 /* CMBMeetTeamViewController.m */,
+				25EDE4B21E906A0300C44094 /* CMBMeetTeamDetailViewController.h */,
+				25EDE4B31E906A0300C44094 /* CMBMeetTeamDetailViewController.m */,
+				25EDE4B81E907E2100C44094 /* CMBPopupAnimatedController.h */,
+				25EDE4B91E907E2100C44094 /* CMBPopupAnimatedController.m */,
+				25EDE4BB1E90921200C44094 /* CMBPopupPresentationController.h */,
+				25EDE4BC1E90921200C44094 /* CMBPopupPresentationController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		25EDE4AB1E903B4500C44094 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				25EDE4AC1E903B8200C44094 /* CMBMeetTeamStretchedHeaderView.h */,
+				25EDE4AD1E903B8200C44094 /* CMBMeetTeamStretchedHeaderView.m */,
+				25EDE4AF1E904DCC00C44094 /* CMBMeetTeamTableViewCell.h */,
+				25EDE4B01E904DCC00C44094 /* CMBMeetTeamTableViewCell.m */,
+				25EDE4B51E906AED00C44094 /* CMBMeetTeamDetailView.h */,
+				25EDE4B61E906AED00C44094 /* CMBMeetTeamDetailView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		25EDE4BE1E90B67C00C44094 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				25EDE4C21E90B6A800C44094 /* team.json */,
+				25EDE4BF1E90B69600C44094 /* CMBMeetTeamModel.h */,
+				25EDE4C01E90B69600C44094 /* CMBMeetTeamModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25EDE48B1E90392300C44094 /* CMB_Team */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25EDE4A31E90392300C44094 /* Build configuration list for PBXNativeTarget "CMB_Team" */;
+			buildPhases = (
+				25EDE4881E90392300C44094 /* Sources */,
+				25EDE4891E90392300C44094 /* Frameworks */,
+				25EDE48A1E90392300C44094 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CMB_Team;
+			productName = CMB_Team;
+			productReference = 25EDE48C1E90392300C44094 /* CMB_Team.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25EDE4841E90392300C44094 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ObjV;
+				TargetAttributes = {
+					25EDE48B1E90392300C44094 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5X97427M43;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 25EDE4871E90392300C44094 /* Build configuration list for PBXProject "CMB_Team" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25EDE4831E90392300C44094;
+			productRefGroup = 25EDE48D1E90392300C44094 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25EDE48B1E90392300C44094 /* CMB_Team */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25EDE48A1E90392300C44094 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EDE49F1E90392300C44094 /* LaunchScreen.storyboard in Resources */,
+				25EDE49C1E90392300C44094 /* Assets.xcassets in Resources */,
+				25EDE4C31E90B6A800C44094 /* team.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25EDE4881E90392300C44094 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EDE4B71E906AED00C44094 /* CMBMeetTeamDetailView.m in Sources */,
+				25EDE4A81E9039CC00C44094 /* CMBMeetTeamViewController.m in Sources */,
+				25EDE4941E90392300C44094 /* AppDelegate.m in Sources */,
+				25EDE4B41E906A0400C44094 /* CMBMeetTeamDetailViewController.m in Sources */,
+				25EDE4C11E90B69600C44094 /* CMBMeetTeamModel.m in Sources */,
+				25EDE4BA1E907E2100C44094 /* CMBPopupAnimatedController.m in Sources */,
+				25EDE4BD1E90921200C44094 /* CMBPopupPresentationController.m in Sources */,
+				25EDE4AE1E903B8200C44094 /* CMBMeetTeamStretchedHeaderView.m in Sources */,
+				25EDE4911E90392300C44094 /* main.m in Sources */,
+				25EDE4B11E904DCC00C44094 /* CMBMeetTeamTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25EDE49D1E90392300C44094 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25EDE49E1E90392300C44094 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25EDE4A11E90392300C44094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25EDE4A21E90392300C44094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25EDE4A41E90392300C44094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5X97427M43;
+				INFOPLIST_FILE = CMB_Team/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ObjV.CMB-Team";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25EDE4A51E90392300C44094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5X97427M43;
+				INFOPLIST_FILE = CMB_Team/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ObjV.CMB-Team";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25EDE4871E90392300C44094 /* Build configuration list for PBXProject "CMB_Team" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25EDE4A11E90392300C44094 /* Debug */,
+				25EDE4A21E90392300C44094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25EDE4A31E90392300C44094 /* Build configuration list for PBXNativeTarget "CMB_Team" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25EDE4A41E90392300C44094 /* Debug */,
+				25EDE4A51E90392300C44094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25EDE4841E90392300C44094 /* Project object */;
+}

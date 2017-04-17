@@ -1,0 +1,154 @@
+[
+  {
+    "avatar": "https://s-media-cache-ak0.pinimg.com/736x/6d/ca/aa/6dcaaa906ee47c98dd7aa91613d8c097.jpg",
+ "bio": "Soldier: 76 is an American soldier-turned-vigilante and a founding member of Overwatch. He wears a facemask with a visor and carries an experimental pulse rifle equipped with an underbarrel 'Helix' rocket launcher. His abilities are Sprint, a forward run with no duration limit or cooldown, and Biotic Field, a deployable device which regenerates the health of allies in the immediate vicinity. His ultimate ability, Tactical Visor, makes his rifle automatically track enemies in his line of sight for a brief period, similar to an aimbot.",
+    "firstName": "Soldier 76",
+    "id": "0",
+    "lastName": "",
+    "title": "Offense Hero"
+  },
+  {
+    "avatar": "https://s-media-cache-ak0.pinimg.com/564x/3d/cb/a7/3dcba7775575c6b43e1e206b94c15219.jpg",
+    "bio": "Hanzo is a Japanese assassin and mercenary. He wields a bow with specialized arrows, including sonic arrows to detect enemies and scatter arrows to hit multiple targets with ricochets. He is also able to scale walls, enabling him to reach vantage points. His ultimate ability is Dragonstrike, in which he unleashes a spiraling spirit dragon that can travel through obstacles to deal damage over a wide area.\n\nHanzo is the elder brother of Genji, and the heir to the head of the Shimada clan. He was trained from an early age to take over the clan, becoming a skilled warrior and marksman, as well as a strategist. When his father died, Hanzo was directed by the clan elders to bring Genji into line; and when Genji refused, the two brothers battled, resulting in what appeared to be Genji's death. Guilty and grief-stricken, Hanzo abandoned the clan and travelled the world in an effort to restore his honor.",
+    "firstName": "Hanzo",
+    "id": "1",
+    "lastName": "",
+    "title": "Defense Hero"
+  },
+  {
+    "avatar": "https://s-media-cache-ak0.pinimg.com/736x/f1/58/7e/f1587e13db53abc64e42a312f279bf7c.jpg",
+    "bio": "Genji is a cyborg ninja offense character whose agile, melee-oriented playstyle is difficult to learn, yet popular among new players who like his ninja design. In his origin story, Genji transforms from a slacker to a superhero.His family—the Japanese Shimada crime family—ordered his eldest brother and fellow Overwatch character Hanzo to kill Genji for his selfish and hedonistic behavior, but before he could die, Overwatch healer Mercy restored Genji as a cyborg. After quelling the rogue artificial intelligence (Omnic Crisis), Genji left the Overwatch team to find peace with his new body, mentored by Overwatch healer Zenyatta.Blizzard tells the story of Genji's reencounter with his brother Hanzo in an animated short.The game's Hanamura map, set in Japan, includes a memorial to Genji in what is assumed to be the Shimada family compound. \n\nGenji's main attack method is to throw three shurikens, either in quick succession or simultaneously in a horizontal spread. His abilities are Swift Strike, a quick dashing lunge with good range, and Deflect, a defensive stance that briefly ricochets projectiles back at enemies. His cyborg agility allows him to double-jump and run up walls. Genji's ultimate ability is Dragonblade, which temporarily replaces his shurikens with powerful, sweeping melee attacks. Gameplay-wise, Genji is a flanker and an infiltrator, best suited to one-on-one fights. Since the cooldown for his Swift Strike resets upon scoring a kill, it is best used as a finishing move. Genji's Deflect ability can counter many enemy ultimate abilities, like Soldier 76's Tactical Visor or McCree's Deadeye. While some characters function best when paired with specific teammates, Genji works best in isolation.",
+    "firstName": "Genji",
+    "id": "2",
+    "lastName": "",
+    "title": "Offense Hero"
+  },
+  {
+    "avatar": "https://s-media-cache-ak0.pinimg.com/564x/8c/63/64/8c6364380a5faca43eba4650e79f7e8b.jpg",
+    "bio": "D.Va is a South Korean mecha pilot and former pro gamer. She pilots a combat mecha armed with twin fusion cannons, shotgun-like weapons that require no ammunition or reload time. Her mecha is equipped with rocket boosters for short bursts of flight, as well as a defense matrix that allows it to shoot enemy projectiles out of the air. D.Va's ultimate ability, Self-Destruct, overloads and detonates her mecha, dealing massive damage to all enemies in a huge radius. If her mech is destroyed (either by her ultimate or in combat), she ejects and continues to fight on foot, armed with a mid-range blaster, until her mecha can be summoned again.\n\nThe South Korean army developed automated battle mechs to protect its cities against a massive omnic that rose from the East China Sea. As the omnic learned from its battles with the South Korean military, it disrupted the mechs' drone-control abilities, forcing the army to turn to human pilots. They elected to recruit professional gamers, who they believed possessed the necessary skills to pilot their mechs. Hana Song was the reigning StarCraft II world champion at the time, with a reputation for playing to win at all costs and showing no mercy to her opponents. She has since become a global icon, streaming footage of her combat missions.",
+    "firstName": "D.Va",
+    "id": "3",
+    "lastName": "",
+    "title": "Tank Hero"
+  },
+  {
+    "avatar": "https://s-media-cache-ak0.pinimg.com/564x/0d/b5/05/0db5057c7f77c7579146021c4605b274.jpg",
+    "bio": "Mei is a Chinese climatologist and adventurer. She wields an Endothermic Blaster that can either freeze enemies in place with a short-range beam or shoot a long-range icicle projectile. She has the ability to encase herself in a solid ice block to shield herself from damage and heal injuries, as well as the ability to erect walls of solid ice with many versatile uses, primarily for blocking the enemies. Her ultimate ability is Blizzard, which calls down her personal weather modification drone to freeze all enemies in a wide radius.\n\nMei-Ling Zhou（周美灵） was employed by Overwatch to find the cause for the planet's changing climate, which had been variously blamed on the industry, the increasing omnic population, and increased consumption of natural resources. While deployed at an Overwatch base in Antarctica, Mei and the other scientists there were trapped by a polar storm that damaged the facility. Lacking sufficient resources to wait for a rescue, Mei and the others entered cryostasis. Mei was the only survivor when she was found close to a decade later; by that time, Overwatch had disbanded, and all of the bases set up to monitor the climate crisis had stopped functioning. Mei elected to carry on the work alone.",
+    "firstName": "Mei",
+    "id": "4",
+    "lastName": "",
+    "title": "Defense Hero"
+  },
+  {
+    "avatar": "https://s-media-cache-ak0.pinimg.com/736x/a3/22/58/a32258b9b2262898f5edd953e71899dc.jpg",
+    "bio": "Reaper is an American mercenary and terrorist, originally a founding member of Overwatch. He is attired in a black hooded trenchcoat with a white skull mask and wields twin 'Hellfire shotguns'. His abilities are Shadow Step, a medium-range line of sight teleport, and Wraith Form, a brief period of invincibility. He is also able to heal himself by taking the life essence of fallen enemies, visible as red burning globes on the ground. Reaper's ultimate ability is Death Blossom, a twin shotgun gun kata which deals massive damage in a short radius.\n\nBorn in Los Angeles, Gabriel Reyes was a veteran officer of the United States Armed Forces who was subjected to a 'soldier enhancement program', where he and the other selectees were genetically enhanced to become 'perfect soldiers'. When the United Nations formed Overwatch to combat the Omnic Crisis, Reyes was one of the two men from the program on the shortlist to join up, and was initially tapped to lead it. However, he was passed over in favor of his friend Jack Morrison, causing a rift between the two men. Reyes was later named commander of Blackwatch, Overwatch's black ops division, but his jealousy of Morrison (due to Morrison's publicity as the official leader of Overwatch, versus Reyes' secret dealings with Blackwatch) eventually caused Reyes to reveal Blackwatch's existence to the public, destroying both organizations and resulting in a battle that destroyed their headquarters in Switzerland. Both men were believed dead, but in reality survived, although Reyes's cells are now simultaneously decaying and regenerating, causing his body to fall apart and rebuild itself over and over again.",
+    "firstName": "Reaper",
+    "id": "5",
+    "lastName": "",
+    "title": "Offense Hero"
+  },
+  {
+    "avatar": "https://s-media-cache-ak0.pinimg.com/736x/c8/09/0f/c8090ff9b6d7b5f0f7916ca1eeddad4f.jpg",
+    "bio": "Winston is a genetically engineered gorilla, scientist and adventurer tank character. He wields a short-range Tesla cannon that requires no aiming, and wears armor that incorporates a jet pack, allowing him to make leaps across great distances and damage foes on landing. He can also project a temporary spherical barrier to protect himself and teammates from enemy fire. Winston's ultimate ability is Primal Rage, in which he briefly gives in to 'the beast within' to get massively increased health and powerful melee attacks with knockback.\n\nWinston was among a group of genetically enhanced gorillas living at the Horizon Lunar Colony, a research base on the Moon, intended to test the effects of prolonged habitation in space. He took his name from his mentor and caretaker, Dr. Harold Winston, the colony's chief scientist, from whom he also gained his signature eyeglasses. When the other gorillas rose up, killed the human scientists, and took over the colony, Winston escaped to Earth in a rocket he built himself. He later joined up with Overwatch, offering his scientific expertise to the team (such as building Tracer's chronal accelerator). When Overwatch disbanded, Winston went into seclusion at an old Overwatch base in Gibraltar.",
+    "firstName": "Winston",
+    "id": "6",
+    "lastName": "",
+    "title": "Tank Hero"
+  },
+  {
+    "avatar": "https://s-media-cache-ak0.pinimg.com/736x/74/d4/3a/74d43ae59ea5fcbd5fd8d134b03f8dc6.jpg",
+    "bio": "Mercy is a Swiss field medic and first responder. She wears a winged Valkyrie suit, which allows her to rush towards targeted teammates through the air, as well as slow her own descent while falling. She wields a Caduceus staff that alternately heals her teammates or boosts their damage output, and also carries a medium-range Caduceus blaster as a sidearm. Her ultimate ability, Resurrect, allows her to instantly bring fallen allies back from the dead.\n\nAngela Ziegler was head of surgery at a Swiss hospital when she developed specialized nanotechnology to heal injuries. Her work earned her the attention of Overwatch, who recruited her as their chief medical researcher; the Valkyrie suit she wears was her own design. When Overwatch disbanded, she dedicated herself to helping those who were affected by decades of global war.",
+    "firstName": "Mercy",
+    "id": "7",
+    "lastName": "",
+    "title": "Support Hero"
+  },
+  {
+    "avatar": "https://s-media-cache-ak0.pinimg.com/564x/e2/79/ed/e279ed084e1118609e4cf5885ea341ea.jpg",
+    "bio": "Junkrat is an Australian scavenger, mercenary and anarchist. He carries a frag grenade launcher and employs bear traps and remote-detonated concussion mines; when he is killed, several primed grenades are released from his body in a final attempt to get back at the attacker. Junkrat's ultimate ability is RIP-Tire, a self-propelled truck wheel loaded with explosives that he's able to manually steer and detonate.\n\nAfter the Omnic Crisis, an 'omnium' - an A.I. controller that directs omnics as part of a hive mind - was destroyed in the Outback, turning it into an irradiated wasteland. Living in the ruins are the Junkers, a group of scavengers and mercenaries; Jamison Fawkes was among their numbers. The effects of the radiation awakened a sense of madness which soon developed into pyromania. In the heart of the destroyed omnium, Junkrat found a valuable secret, making him the target of bounty hunters and rival gangs. He made a deal with the Junker enforcer Roadhog, who agreed to become his personal bodyguard in return for a 50-50 share of the profits from their finds.",
+    "firstName": "Junkrat",
+    "id": "8",
+    "lastName": "",
+    "title": "Defense Hero"
+  },
+  {
+    "avatar": "https://s-media-cache-ak0.pinimg.com/736x/9b/a5/a4/9ba5a44775cda2021f1d3cbd8ba66d26.jpg",
+    "bio": "Tracer is a British pilot and adventurer. She wields dual rapid-fire pulse pistols, and is equipped with a 'chronal accelerator' which grants her the ability to either jump forward in time (Blink) or rewind three seconds into the past (Recall). Her ultimate ability is Pulse Bomb, an explosive charge that sticks to enemies, exploding after a brief delay for massive damage.\n\nBorn in London following the events of the Omnic Crisis, Lena Oxton became the youngest test pilot in Overwatch's experimental flight program, and was tapped to test the 'Slipstream', a fighter jet that used teleportation technology. During the test flight, a malfunction caused the craft to vanish and Tracer along with it. She was presumed dead. However, she reappeared months later, though suffering from a condition preventing her from maintaining a physical form and which caused her to vanish for hours or even days at a time. It was discovered that the accident desynchronized her molecules from time itself, a condition eventually called 'chronal disassociation'. The enhanced gorilla scientist Winston invented the chronal accelerator to re-synchronize her with the normal flow of time.",
+    "firstName": "Tracer",
+    "id": "9",
+    "lastName": "",
+    "title": "Offense Hero"
+  },
+  {
+    "avatar": "https://s-media-cache-ak0.pinimg.com/564x/7d/10/45/7d1045322a7072eedff438d522c0f102.jpg",
+    "bio": "Reinhardt is a German soldier, and one of the founding members of Overwatch. He wears a heavy suit of power armor, and carries a rocket-powered warhammer. His main ability is a wide hard-light barrier that allows him to protect himself and teammates behind him from enemy fire. He may also launch a flaming projectile that ignores enemy barriers, or use a rocket booster to charge into the enemy lines, crushing them against walls. His ultimate ability, Earthshatter, makes him slam his hammer against the ground, sending out a shockwave that incapacitates enemies in front of him.\n\nReinhardt Wilhelm is a decorated Bundeswehr veteran from Stuttgart who lives under a knightly code of chivalry. He served with distinction as part of the original Overwatch team and remained in service well into his fifties, his code of ethics and his blunt honesty making him a respected member of the team. Forced into mandatory retirement, Reinhardt was forced to watch as Overwatch collapsed, but refused to abandon its ideals as the world returned to chaos.",
+    "firstName": "Reinhardt",
+    "id": "10",
+    "lastName": "",
+    "title": "Tank Hero"
+  },
+  {
+    "avatar": "https://s-media-cache-ak0.pinimg.com/564x/3f/cf/d6/3fcfd6ccb0fe62ad11c0414ace550d3e.jpg",
+    "bio": "Widowmaker is a French sniper and assassin. She wields a versatile rifle that fires in full automatic at close-range, and can convert into a sniper rifle for long-range kills. She also uses a grappling hook to reach high ledges and poison mines to disable enemies. Her ultimate ability is Infra-Sight, which activates her recon visor to highlight all enemies through walls for her and her team, similar to a wallhack.\n\nAmélie was the wife of Gérard Lacroix, an Overwatch agent heading operations against the terrorist organization known as Talon. When their assassins were unable to get close to Lacroix, they kidnapped Amélie and reprogrammed her as a sleeper agent. She was found and returned home by Overwatch agents, unaware of what had happened; two weeks later, she killed her husband in his sleep. Returning to Talon, she underwent extensive training in the covert arts, and her physiology was altered to slow her heart, turning her skin blue. Her emotional responses numbed by the conditioning, she feels little more than the satisfaction of the kill.",
+    "firstName": "Widowmaker",
+    "id": "11",
+    "lastName": "",
+    "title": "Defense Hero"
+  },
+  {
+    "avatar": "https://s-media-cache-ak0.pinimg.com/236x/11/1c/6a/111c6ae4838b3646e0f4c23ca124e572.jpg",
+    "bio": "Pharah is an Egyptian security officer. She wears the Raptora Mark VI, a jetpack-equipped combat suit, and wields a rocket launcher. She has a Wedjat (Eye of Horus) tattoo around her right eye. Her abilities are Concussion Blast, a rocket with powerful knockback but no damage, and Jump Jets, a quick jetpack-assisted vertical ascension comparable to a rocket jump. Pharah's ultimate ability is Rocket Barrage, a continuous stream of small air-to-ground projectiles.\n\nFareeha Amari is the daughter of Ana Amari, one of the founding members of Overwatch. She served as an officer in the Egyptian Army and aspired to follow in her mother's footsteps, but Overwatch was disbanded before she could join its ranks. After leaving the army, Pharah took a job with Helix Security International, a private security firm contracted to protect an artificial intelligence facility below the Giza Plateau.\n\nPharah is a solid attacker able to consistently maintain pressure on the enemy team. Her rocket launcher allows her to hold chokepoints or lay out suppressive fire onto objectives both in offense and defense, and her vertical agility renders her out of reach for characters reliant on close-range fighting. Her Concussion Blast disrupts enemy formations, and in the hands of a skilled player it can be used to score environmental kills. Pharah is a good match with Mercy, whose Guardian Angel ability allows both of them to fly alongside each other. Pharah is vulnerable against long-range oriented characters, especially those wielding hitscan weapons, such as Widowmaker or McCree.",
+    "firstName": "Pharah",
+    "id": "12",
+    "lastName": "",
+    "title": "Offense Hero"
+  },
+  {
+    "avatar": "https://s-media-cache-ak0.pinimg.com/originals/8a/1e/0b/8a1e0b1099f6262aa3fb6e0f0f955106.jpg",
+    "bio": "Lúcio is a Brazilian DJ and freedom fighter. He is equipped with futuristic roller blades that allow him to ride on walls, and is armed with a sonic amplifier gun that knock enemies back with sonic blasts. He uses music to either heal his teammates or increase their movement speed. His ultimate ability, Sound Barrier, grants powerful temporary shielding to himself and nearby allies.\n\nLúcio Correia dos Santos grew up in Rio de Janeiro during the financial upheaval caused by the Omnic Crisis. He turned to music to lift up the spirits of his disheartened people, performing on street corners and at block parties. When the Vishkar Corporation, a multinational conglomerate, moved in to redevelop Rio, they began to crack down on its citizens with curfews and began to exploit them as cheap labor. Lúcio rose up and stole a Vishkar sonic weapon and used it against them, rallying the people to rise up and drive Vishkar out of their neighborhoods. His leadership made him a global celebrity, and he began to perform in filled arenas worldwide.",
+    "firstName": "Lúcio",
+    "id": "13",
+    "lastName": "",
+    "title": "Support Hero"
+  },
+  {
+    "avatar": "https://s-media-cache-ak0.pinimg.com/736x/07/ef/61/07ef610375b9be7e074c70c961b93493.jpg",
+    "bio": "Roadhog is an Australian enforcer and bodyguard. He wields a scrap gun that fires shrapnel in short-range bursts, carries a NOS canister to self-heal, and employs a chain hook to pull distant opponents towards him. His ultimate ability, Whole Hog, allows him to put a top loader into his scrap gun, firing it in full auto mode with increased knockback, wider spread, and no need to reload.\n\nMako Rutledge lived in the Australian Outback in the period after the Omnic Crisis. The government of Australia, in an effort to make peace with the omnics, allowed them to take possession of the omnium and the territory around it, displacing the human residents. Mako and other angry humans formed the Australian Liberation Front to strike against the omnium and the omnics that resided around it. In the end, the ALF overloaded the fusion core, destroying the omnium and turning the Outback into a radioactive wasteland, severely disfiguring Mako's face. Mako donned a mask and took to the broken highways on his chopper, forsaking his humanity little by little until he became a ruthless killer.",
+    "firstName": "Roadhog",
+    "id": "14",
+    "lastName": "",
+    "title": "Tank Hero"
+  },
+  {
+    "avatar": "https://s-media-cache-ak0.pinimg.com/564x/d5/f0/2b/d5f02b088db158cc14688869bd492d38.jpg",
+    "bio": "Torbjörn is a Swedish engineer and weapons designer, and a founding member of Overwatch. His armor comes equipped with a mobile forge, and he carries a rivet gun and a forge hammer. He constructs turrets which can be upgraded, and also provides armor upgrades for his teammates to give a boost to their health. His ultimate ability is Molten Core, which overheats his personal forge, upgrading his turret, granting a speed bonus to turret construction and repair, as well as a damage and defense bonus.\n\nTorbjörn Lindholm believes that technology should serve a better vision for humanity, putting him at odds with his employers, who wanted to control the weapons with artificial intelligence. His deep-seated fear of sentient machines, dismissed at first as paranoia, became reality during the Omnic Crisis, during which he was recruited by Overwatch. His engineering knowledge proved invaluable to achieving Overwatch's aim of ending the Omnic Crisis. After Overwatch was disbanded, his weapons were stolen or stashed away, and Torbjörn has set out to ensure they are not used to harm the innocent.",
+    "firstName": "Torbjörn",
+    "id": "15",
+    "lastName": "",
+    "title": "Defense Hero"
+  },
+  {
+    "avatar": "https://s-media-cache-ak0.pinimg.com/564x/05/32/e4/0532e4514b427286816c32c064e7e319.jpg",
+    "bio": "Zenyatta is an omnic monk and wanderer. Rather than moving on foot, he floats above the ground in a meditative pose. He is surrounded by a circle of floating metal orbs (resembling prayer beads), which he can use to launch a form of energy to damage foes or can cast onto others to apply regeneration to teammates or a defense-lowering debuff to enemies. His ultimate ability is Transcendence, which makes him temporarily invulnerable and applies massive healing in a large radius around him.\n\nZenyatta belonged to the Shambali, an order of omnic monks that had settled in a monastery deep within the Himalayas in northern Nepal, after experiencing a 'spiritual awakening' that led them to believe that, like humans, omnics also possessed a soul. Their leader, Tekhartha Mondatta, sought to heal the breach between humans and omnics and bring them into societal harmony through the spreading of their peaceful message in public rallies (one of which resulted in Mondatta's assassination by Widowmaker in London). Zenyatta disagreed with this approach, believing that only directly engaging humans and connecting with them person-to-person will bridge the divide between man and machine. He left the Shambali monastery and wandered the world, seeking to help those he meets find inner peace (such as his encounter with the cyborg warrior Genji).",
+    "firstName": "Zenyatta",
+    "id": "16",
+    "lastName": "",
+    "title": "Support Hero"
+  },
+  {
+    "avatar": "https://s-media-cache-ak0.pinimg.com/originals/17/0d/da/170dda0f8639344ea8eb216fa8d2c4c7.jpg",
+    "bio": "Sombra is a Mexican hacker and infiltrator. In the Overwatch narrative, Sombra had been orphaned at an early age but quickly discovered her natural gift for hacking. She initially used it as part of the Los Muertos gang that fought against a corrupt Mexican government. Over the years her hacking expanded to other global corporations and powers, managing to keep her identity secret. She was eventually discovered by a mysterious organization that forced her into hiding, destroying all records of her existence. She augmented her body with cybernetic attachments to help her hack, and joined the criminal organization Talon to discover the identity of the organization that uncovered her.\n\nWithin the game, Sombra is an Attack role. She is equipped with a low-damage, high-capacity machine pistol for short range combat and her trademark ability is Hacking. Hacked enemies cannot use their abilities, hacked turrets are disabled, and hacked health kits respawn faster and become unusable to the enemy team. Sombra also has Thermoptic Camo that gives her a period of invisibility paired with a speed boost, and can launch a Translocator beacon that she can to teleport to later. Her passive ability, Opportunist, enables her to track enemies that are low on health, even through obstacles. Sombra's ultimate ability is EMP, a magnetic shockwave that hacks all enemies around her, as well as disabling their barriers and shields.",
+    "firstName": "Sombra",
+    "id": "17",
+    "lastName": "",
+    "title": "Offense Hero"
+  },
+  {
+    "avatar": "https://s-media-cache-ak0.pinimg.com/originals/0f/c6/bc/0fc6bcf226da3e4515c0d0d04e4db39e.png",
+    "bio": "Ana is an Egyptian bounty hunter, and one of the founding members of Overwatch. She wields a Biotic Rifle loaded with smart darts that damage enemies and heal allies, as well as a sidearm that fires a sleeping dart. She also carries Biotic Grenades that disable enemy healing and boost ally healing. Her ultimate ability is Nano Boost, which grants an ally a boost to attack and defense.\n\nHailing from Cairo, Ana Amari was considered the best sniper in the world, and rushed in to support the unprepared Egyptian defense forces during the Omnic Crisis. Her marksmanship and her critical decision-making skills led to her being recruited by Overwatch, and she served for many years as Jack Morrison's second-in-command during the conflict. Even with her command responsibility, Ana refused to give up going on combat missions. Remaining in service well into her fifties, Ana was believed to have been killed by Widowmaker during a hostage rescue; when Ana hesitated to make the kill shot, realizing that her target had in fact been her friend Amélie Lacroix, Widowmaker shot her through her rifle's lens, destroying her right eye, then proceeded to kill the hostages.Though Ana survived, Overwatch soon disbanded; her daughter, Fareeha, who had served in the Egyptian Army and hoped to follow in her mother's footsteps, later became part of a private security firm and took the name Pharah. Initially choosing to remain out of combat as the world became embroiled in conflict, Ana realized she could not remain on the sidelines, and has rejoined the battle to protect her homeland.",
+    "firstName": "Ana",
+    "id": "18",
+    "lastName": "",
+    "title": "Support Hero"
+  }
+]
