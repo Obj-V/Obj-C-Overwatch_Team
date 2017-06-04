@@ -9,21 +9,23 @@
 #import "CMBMeetTeamDetailViewController.h"
 #import "CMBPopupAnimatedController.h"
 #import "CMBPopupPresentationController.h"
+#import "CMBMeetTeamDetailView.h"
+#import "CMBMeetTeamViewModel.h"
 
 @interface CMBMeetTeamDetailViewController ()
 @property (nonatomic,strong) CMBMeetTeamDetailView *detailView;
 @property (nonatomic,strong) UIButton *closeButton;
-@property (nonatomic,strong) CMBMeetTeamMember *teamMember;
+@property (nonatomic,strong) CMBMeetTeamViewModel *teamViewModel;
 @end
 
 @implementation CMBMeetTeamDetailViewController
 
--(instancetype)initWithTeamMember:(CMBMeetTeamMember*)teamMember {
+-(instancetype)initWithTeamViewModel:(CMBMeetTeamViewModel*)teamViewModel;{
     self = [super init];
     if (self) {
         self.transitioningDelegate = self;
         self.modalPresentationStyle = UIModalPresentationCustom;
-        self.teamMember = teamMember;
+        _teamViewModel = teamViewModel;
     }
     return self;
 }
@@ -40,7 +42,7 @@
 }
 
 - (void)setupSubviews {
-    self.detailView = [[CMBMeetTeamDetailView alloc] initWithFrame:CGRectZero teamMember:self.teamMember];
+    self.detailView = [self.teamViewModel detailViewInstance];
     self.detailView.translatesAutoresizingMaskIntoConstraints = NO;
     [self.view addSubview:self.detailView];
     

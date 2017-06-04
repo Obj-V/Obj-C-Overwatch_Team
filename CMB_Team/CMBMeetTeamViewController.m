@@ -10,9 +10,9 @@
 #import "CMBMeetTeamStretchedHeaderView.h"
 #import "CMBMeetTeamTableViewCell.h"
 #import "CMBMeetTeamDetailViewController.h"
-#import "CMBMeetTeamModel.h"
+#import "CMBMeetTeamNetworkManager.h"
+#import "CMBMeetTeamViewModel.h"
 
-static NSString *kCellID = @"CMBMeetTeamCell";
 static CGFloat kTableViewHeaderHeight;
 static CGRect kTableViewHeaderFrame;
 static CGFloat kTableViewRowHeight;
@@ -20,7 +20,7 @@ static CGFloat kTableViewRowHeight;
 @interface CMBMeetTeamViewController () <UITableViewDelegate,UITableViewDataSource,UIScrollViewDelegate>
 @property (nonatomic,strong) UITableView *tableview;
 @property (nonatomic,strong) CMBMeetTeamStretchedHeaderView *stretchedHeaderView;
-@property (nonatomic,strong) NSArray *teamMemberArray;
+@property (nonatomic,strong) NSArray *teamViewModelArray;
 @end
 
 @implementation CMBMeetTeamViewController
@@ -30,8 +30,7 @@ static CGFloat kTableViewRowHeight;
     [self setupVars];
     [self setupTableView];
     [self setupStretchedHeaderView];
-    
-    self.teamMemberArray = [[CMBMeetTeamModel sharedInstance] allTeamMembers];
+    [self setupTeamMembers];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -44,6 +43,15 @@ static CGFloat kTableViewRowHeight;
     kTableViewRowHeight = self.view.bounds.size.height/8;
 }
 
+- (void)setupTeamMembers {
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"team" ofType:@"json"];
+    [CMBMeetTeamNetworkManager loadTeamDataWithPath:filePath completion:^(NSArray *dataArray) {
+        self.teamViewModelArray = [CMBMeetTeamViewModel teamViewModelArrayFromTeamModelArray:dataArray];
+        NSLog(@"%@", self.teamViewModelArray);
+        [self.tableview reloadData];
+    }];
+}
+
 #pragma mark TableView
 - (void)setupTableView {
     self.tableview = [[UITableView alloc] initWithFrame:self.view.bounds];
@@ -54,7 +62,7 @@ static CGFloat kTableViewRowHeight;
     self.tableview.allowsMultipleSelection = NO;
     self.tableview.allowsSelectionDuringEditing = NO;
     self.tableview.showsVerticalScrollIndicator = NO;
-    [self.tableview registerClass:[CMBMeetTeamTableViewCell class] forCellReuseIdentifier:kCellID];
+    [self.tableview registerClass:[CMBMeetTeamTableViewCell class] forCellReuseIdentifier:kMeetTeamCellID];
     [self.view addSubview:self.tableview];
 }
 
@@ -83,11 +91,11 @@ static CGFloat kTableViewRowHeight;
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.teamMemberArray.count;
+    return self.teamViewModelArray.count;
 }
 
 -(void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
-    CMBMeetTeamMember *teamMember = self.teamMemberArray[indexPath.row];
+    CMBMeetTeamViewModel *teamMember = self.teamViewModelArray[indexPath.row];
     if (!teamMember.isVisited) { //Only animate the cells that hasn't seen before.
         CGAffineTransform tranform = CGAffineTransformMakeTranslation(-tableView.bounds.size.width, 0);
         cell.transform = tranform;
@@ -98,15 +106,14 @@ static CGFloat kTableViewRowHeight;
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    CMBMeetTeamMember *teamMember = self.teamMemberArray[indexPath.row];
-    CMBMeetTeamTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kCellID];
-    cell.teamMember = teamMember;
+    CMBMeetTeamViewModel *teamModelView = self.teamViewModelArray[indexPath.row];
+    CMBMeetTeamTableViewCell *cell = [teamModelView cellInstance:tableView indexPath:indexPath];
     return cell;
 }
 
 -(void)tableView:(UITableView *)tableView didEndDisplayingCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
-    CMBMeetTeamMember *teamMember = self.teamMemberArray[indexPath.row];
-    teamMember.isVisited = YES;
+    CMBMeetTeamViewModel *teamViewModel = self.teamViewModelArray[indexPath.row];
+    [teamViewModel resetCellInstanceAfterShown];
 }
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -115,8 +122,8 @@ static CGFloat kTableViewRowHeight;
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
-    CMBMeetTeamMember *teamMember = self.teamMemberArray[indexPath.row];
-    CMBMeetTeamDetailViewController *detailVC = [[CMBMeetTeamDetailViewController alloc] initWithTeamMember:teamMember];
+    CMBMeetTeamViewModel *teamViewModel = self.teamViewModelArray[indexPath.row];
+    CMBMeetTeamDetailViewController *detailVC = [[CMBMeetTeamDetailViewController alloc] initWithTeamViewModel:teamViewModel];
     [self presentViewController:detailVC animated:YES completion:nil];
 }
 

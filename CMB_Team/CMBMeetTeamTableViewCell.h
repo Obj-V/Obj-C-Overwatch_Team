@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CMBMeetTeamModel.h"
+@class CMBMeetTeamViewModel;
+
+static NSString *kMeetTeamCellID = @"CMBMeetTeamCell";
 
 @interface CMBMeetTeamTableViewCell : UITableViewCell
 @property (nonatomic,strong) UIImageView *profileImageView;
-@property (nonatomic,strong) CMBMeetTeamMember *teamMember;
+- (void)setupWithTeamViewModel:(CMBMeetTeamViewModel*)teamViewModel;
 @end

@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CMBMeetTeamModel.h"
+@class CMBMeetTeamViewModel;
 
 @interface CMBMeetTeamDetailView : UIView
--(instancetype)initWithFrame:(CGRect)frame teamMember:(CMBMeetTeamMember*)teamMember;
+-(instancetype)initWithFrame:(CGRect)frame teamViewModel:(CMBMeetTeamViewModel*)teamViewModel;
+@property (nonatomic,strong) UIImageView *profileImageView;
 @end

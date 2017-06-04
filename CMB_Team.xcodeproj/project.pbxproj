@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25B4447D1EE38A4B00CD9C32 /* CMBMeetTeamMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B4447C1EE38A4B00CD9C32 /* CMBMeetTeamMember.m */; };
+		25B444801EE38B3C00CD9C32 /* CMBMeetTeamNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B4447F1EE38B3C00CD9C32 /* CMBMeetTeamNetworkManager.m */; };
+		25B444831EE3925A00CD9C32 /* CMBMeetTeamViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B444821EE3925A00CD9C32 /* CMBMeetTeamViewModel.m */; };
+		25B444871EE3DAA300CD9C32 /* CMBOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B444861EE3DAA300CD9C32 /* CMBOperation.m */; };
+		25B4448A1EE4A0C800CD9C32 /* CMBOperationQueueManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B444891EE4A0C800CD9C32 /* CMBOperationQueueManager.m */; };
 		25EDE4911E90392300C44094 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EDE4901E90392300C44094 /* main.m */; };
 		25EDE4941E90392300C44094 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EDE4931E90392300C44094 /* AppDelegate.m */; };
 		25EDE49C1E90392300C44094 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25EDE49B1E90392300C44094 /* Assets.xcassets */; };
@@ -18,11 +23,20 @@
 		25EDE4B71E906AED00C44094 /* CMBMeetTeamDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EDE4B61E906AED00C44094 /* CMBMeetTeamDetailView.m */; };
 		25EDE4BA1E907E2100C44094 /* CMBPopupAnimatedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EDE4B91E907E2100C44094 /* CMBPopupAnimatedController.m */; };
 		25EDE4BD1E90921200C44094 /* CMBPopupPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EDE4BC1E90921200C44094 /* CMBPopupPresentationController.m */; };
-		25EDE4C11E90B69600C44094 /* CMBMeetTeamModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EDE4C01E90B69600C44094 /* CMBMeetTeamModel.m */; };
 		25EDE4C31E90B6A800C44094 /* team.json in Resources */ = {isa = PBXBuildFile; fileRef = 25EDE4C21E90B6A800C44094 /* team.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25B4447B1EE38A4B00CD9C32 /* CMBMeetTeamMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBMeetTeamMember.h; sourceTree = "<group>"; };
+		25B4447C1EE38A4B00CD9C32 /* CMBMeetTeamMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBMeetTeamMember.m; sourceTree = "<group>"; };
+		25B4447E1EE38B3C00CD9C32 /* CMBMeetTeamNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBMeetTeamNetworkManager.h; sourceTree = "<group>"; };
+		25B4447F1EE38B3C00CD9C32 /* CMBMeetTeamNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBMeetTeamNetworkManager.m; sourceTree = "<group>"; };
+		25B444811EE3925A00CD9C32 /* CMBMeetTeamViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBMeetTeamViewModel.h; sourceTree = "<group>"; };
+		25B444821EE3925A00CD9C32 /* CMBMeetTeamViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBMeetTeamViewModel.m; sourceTree = "<group>"; };
+		25B444851EE3DAA300CD9C32 /* CMBOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBOperation.h; sourceTree = "<group>"; };
+		25B444861EE3DAA300CD9C32 /* CMBOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBOperation.m; sourceTree = "<group>"; };
+		25B444881EE4A0C800CD9C32 /* CMBOperationQueueManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBOperationQueueManager.h; sourceTree = "<group>"; };
+		25B444891EE4A0C800CD9C32 /* CMBOperationQueueManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBOperationQueueManager.m; sourceTree = "<group>"; };
 		25EDE48C1E90392300C44094 /* CMB_Team.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMB_Team.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25EDE4901E90392300C44094 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		25EDE4921E90392300C44094 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -44,8 +58,6 @@
 		25EDE4B91E907E2100C44094 /* CMBPopupAnimatedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBPopupAnimatedController.m; sourceTree = "<group>"; };
 		25EDE4BB1E90921200C44094 /* CMBPopupPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBPopupPresentationController.h; sourceTree = "<group>"; };
 		25EDE4BC1E90921200C44094 /* CMBPopupPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBPopupPresentationController.m; sourceTree = "<group>"; };
-		25EDE4BF1E90B69600C44094 /* CMBMeetTeamModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBMeetTeamModel.h; sourceTree = "<group>"; };
-		25EDE4C01E90B69600C44094 /* CMBMeetTeamModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBMeetTeamModel.m; sourceTree = "<group>"; };
 		25EDE4C21E90B6A800C44094 /* team.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = team.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +72,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25B444841EE3CD1200CD9C32 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				25B444851EE3DAA300CD9C32 /* CMBOperation.h */,
+				25B444861EE3DAA300CD9C32 /* CMBOperation.m */,
+				25B444881EE4A0C800CD9C32 /* CMBOperationQueueManager.h */,
+				25B444891EE4A0C800CD9C32 /* CMBOperationQueueManager.m */,
+				25B4447E1EE38B3C00CD9C32 /* CMBMeetTeamNetworkManager.h */,
+				25B4447F1EE38B3C00CD9C32 /* CMBMeetTeamNetworkManager.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
 		25EDE4831E90392300C44094 = {
 			isa = PBXGroup;
 			children = (
@@ -81,9 +106,10 @@
 			children = (
 				25EDE4921E90392300C44094 /* AppDelegate.h */,
 				25EDE4931E90392300C44094 /* AppDelegate.m */,
+				25B444841EE3CD1200CD9C32 /* Networking */,
 				25EDE4A91E903B2600C44094 /* ViewControllers */,
 				25EDE4AB1E903B4500C44094 /* Views */,
-				25EDE4BE1E90B67C00C44094 /* Model */,
+				25EDE4BE1E90B67C00C44094 /* Model/ViewModel */,
 				25EDE49B1E90392300C44094 /* Assets.xcassets */,
 				25EDE49D1E90392300C44094 /* LaunchScreen.storyboard */,
 				25EDE4A01E90392300C44094 /* Info.plist */,
@@ -128,14 +154,16 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
-		25EDE4BE1E90B67C00C44094 /* Model */ = {
+		25EDE4BE1E90B67C00C44094 /* Model/ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 				25EDE4C21E90B6A800C44094 /* team.json */,
-				25EDE4BF1E90B69600C44094 /* CMBMeetTeamModel.h */,
-				25EDE4C01E90B69600C44094 /* CMBMeetTeamModel.m */,
+				25B4447B1EE38A4B00CD9C32 /* CMBMeetTeamMember.h */,
+				25B4447C1EE38A4B00CD9C32 /* CMBMeetTeamMember.m */,
+				25B444811EE3925A00CD9C32 /* CMBMeetTeamViewModel.h */,
+				25B444821EE3925A00CD9C32 /* CMBMeetTeamViewModel.m */,
 			);
-			name = Model;
+			name = Model/ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,12 +242,16 @@
 				25EDE4A81E9039CC00C44094 /* CMBMeetTeamViewController.m in Sources */,
 				25EDE4941E90392300C44094 /* AppDelegate.m in Sources */,
 				25EDE4B41E906A0400C44094 /* CMBMeetTeamDetailViewController.m in Sources */,
-				25EDE4C11E90B69600C44094 /* CMBMeetTeamModel.m in Sources */,
+				25B444871EE3DAA300CD9C32 /* CMBOperation.m in Sources */,
 				25EDE4BA1E907E2100C44094 /* CMBPopupAnimatedController.m in Sources */,
+				25B4448A1EE4A0C800CD9C32 /* CMBOperationQueueManager.m in Sources */,
 				25EDE4BD1E90921200C44094 /* CMBPopupPresentationController.m in Sources */,
 				25EDE4AE1E903B8200C44094 /* CMBMeetTeamStretchedHeaderView.m in Sources */,
 				25EDE4911E90392300C44094 /* main.m in Sources */,
 				25EDE4B11E904DCC00C44094 /* CMBMeetTeamTableViewCell.m in Sources */,
+				25B4447D1EE38A4B00CD9C32 /* CMBMeetTeamMember.m in Sources */,
+				25B444801EE38B3C00CD9C32 /* CMBMeetTeamNetworkManager.m in Sources */,
+				25B444831EE3925A00CD9C32 /* CMBMeetTeamViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +402,7 @@
 				25EDE4A51E90392300C44094 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

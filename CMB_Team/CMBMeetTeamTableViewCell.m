@@ -7,11 +7,14 @@
 //
 
 #import "CMBMeetTeamTableViewCell.h"
+#import "CMBMeetTeamViewModel.h"
+
 @interface CMBMeetTeamTableViewCell()
 @property (nonatomic,strong) UIView *basedView;
 @property (nonatomic,strong) UILabel *nameLabel;
 @property (nonatomic,strong) UILabel *jobTitleLabel;
 @property (nonatomic,strong) UILabel *bioLabel;
+@property (nonatomic,strong) UIImage *defaultImage;
 @end
 
 @implementation CMBMeetTeamTableViewCell
@@ -36,23 +39,24 @@
 
 -(void)prepareForReuse {
     [super prepareForReuse];
-    self.profileImageView.image = [UIImage imageNamed:@"user"];
+    [self setToDefaultCell];
+}
+
+- (void)setToDefaultCell {
+    self.profileImageView.image = self.defaultImage;
     self.nameLabel.text = @"";
     self.jobTitleLabel.text = @"";
     self.bioLabel.text = @"";
 }
 
--(void)setTeamMember:(CMBMeetTeamMember *)teamMember {
-    _teamMember = teamMember;
-    [self updateViews];
-}
-
-- (void)updateViews {
-    self.nameLabel.attributedText = [self.teamMember getNameJobTitleAttributedString];
-    self.jobTitleLabel.text = self.teamMember.jobTitle;
-    self.bioLabel.text = self.teamMember.bio;
-    
-    [[CMBMeetTeamModel sharedInstance] getImageForUIImageView:self.profileImageView teamMember:self.teamMember];
+- (void)setupWithTeamViewModel:(CMBMeetTeamViewModel*)teamViewModel {
+    self.nameLabel.attributedText = teamViewModel.nameWithJobTitleAttributedString;
+    self.jobTitleLabel.text = teamViewModel.teamMember.jobTitle;
+    self.bioLabel.text = teamViewModel.teamMember.bio;
+    self.profileImageView.image = teamViewModel.profileImage ? teamViewModel.profileImage : teamViewModel.profileDefaultImage;
+    if (self.defaultImage == nil) {
+        self.defaultImage = teamViewModel.profileDefaultImage;
+    }
 }
 
 - (void)setupViews {

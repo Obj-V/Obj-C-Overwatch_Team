@@ -7,24 +7,29 @@
 //
 
 #import "CMBMeetTeamDetailView.h"
+#import "CMBMeetTeamViewModel.h"
 
 @interface CMBMeetTeamDetailView ()
-@property (nonatomic,strong) UIImageView *profileImageView;
+
 @property (nonatomic,strong) UILabel *nameLabel;
 @property (nonatomic,strong) UILabel *jobTitleLabel;
 @property (nonatomic,strong) UITextView *bioTextView;
-@property (nonatomic,strong) CMBMeetTeamMember *teamMember;
+@property (nonatomic,strong) CMBMeetTeamViewModel *teamViewModel;
 @end
 
 @implementation CMBMeetTeamDetailView
 
--(instancetype)initWithFrame:(CGRect)frame teamMember:(CMBMeetTeamMember*)teamMember {
+-(instancetype)initWithFrame:(CGRect)frame teamViewModel:(CMBMeetTeamViewModel*)teamViewModel {
     self = [super initWithFrame:frame];
     if (self) {
-        self.teamMember = teamMember;
+        _teamViewModel = teamViewModel;
         [self setupSubviews];
     }
     return self;
+}
+
+-(void)dealloc {
+    [self.teamViewModel resetDetailViewInstance];
 }
 
 - (void)setupSubviews {
@@ -34,7 +39,7 @@
     self.profileImageView = [[UIImageView alloc] init];
     self.profileImageView.translatesAutoresizingMaskIntoConstraints = NO;
     self.profileImageView.backgroundColor = [UIColor clearColor];
-    [[CMBMeetTeamModel sharedInstance] getImageForUIImageView:self.profileImageView teamMember:self.teamMember];
+    self.profileImageView.image = self.teamViewModel.profileImage ? self.teamViewModel.profileImage : self.teamViewModel.profileDefaultImage;
     [self addSubview:self.profileImageView];
     
     self.nameLabel = [[UILabel alloc] init];
@@ -44,12 +49,12 @@
     self.nameLabel.adjustsFontSizeToFitWidth = YES;
     self.nameLabel.minimumScaleFactor = 0.5;
     self.nameLabel.backgroundColor = [UIColor clearColor];
-    self.nameLabel.attributedText = [self.teamMember getNameJobTitleAttributedString];
+    self.nameLabel.attributedText = self.teamViewModel.nameWithJobTitleAttributedString;
     [self addSubview:self.nameLabel];
     
     self.bioTextView = [[UITextView alloc] init];
     self.bioTextView.translatesAutoresizingMaskIntoConstraints = NO;
-    self.bioTextView.text = self.teamMember.bio;
+    self.bioTextView.text = self.teamViewModel.teamMember.bio;
     self.bioTextView.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:13];
     self.bioTextView.textAlignment = NSTextAlignmentNatural;
     self.bioTextView.textColor = [UIColor grayColor];

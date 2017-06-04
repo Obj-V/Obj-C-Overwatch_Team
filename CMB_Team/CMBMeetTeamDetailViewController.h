@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CMBMeetTeamDetailView.h"
-#import "CMBMeetTeamModel.h"
+@class CMBMeetTeamDetailView;
+@class CMBMeetTeamViewModel;
 
 @interface CMBMeetTeamDetailViewController : UIViewController <UIViewControllerTransitioningDelegate>
--(instancetype)initWithTeamMember:(CMBMeetTeamMember*)teamMember;
+-(instancetype)initWithTeamViewModel:(CMBMeetTeamViewModel*)teamViewModel;
 @end
